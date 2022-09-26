@@ -18,7 +18,7 @@ def enviar_correu():
     message = "Subject: mi correo del bot \n\nHola, un mensaje desde Python!"
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('dnagertesting@gmail.com', 'admin1234!')
+    server.login('dnagertesting@gmail.com', '')
     server.sendmail('dnagertesting@gmail.com', 'dnagertesting@gmail.com', message)
     server.quit()
     print("Correo enviado")
