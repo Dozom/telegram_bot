@@ -10,6 +10,9 @@ def sample_responses(input_text):
     if user_message in ("enviar_sms"):
         return "Estas enviant un sms"
 
+    if user_message in ("rebre_missatge"):
+        return user_message
+
     if user_message in ("adjuntar_media"):
         return "Estas adjuntant media"
 
@@ -23,6 +26,4 @@ def enviar_correu():
     server.quit()
     print("Correo enviado")
 
-def enviar_sms():
-
-enviar_correu()
+# enviar_correu()
