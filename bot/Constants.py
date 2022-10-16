@@ -1,1 +1,5 @@
 API_KEY = "5646653027:AAGcj6p3ZaVcOw2sI03jDkJBmoQnrdHEGTE"
+ACCOUNT_SSID = "ACae5dd8b93b3157aa35a4b65aeea25c06"
+AUTH_TOKEN = "9b54e19e6e04e84cbdcc6d28372ab5e8"
+EMAIL_SENDER = "dnagertestingsofast@gmail.com"
+EMAIL_SENDER_PASSWORD = "xhnqyrpirusgozta"
